@@ -1,0 +1,17 @@
+{
+  "project": {
+    "name": "LifePilot (Zite)",
+    "basePublicIdentifier": "ab7cf072c50cda37"
+  },
+  "integrations": {
+    "email": {
+      "type": "email",
+      "connectionId": "svc_580197",
+      "provider": "gmail"
+    },
+    "github": {
+      "type": "github",
+      "connectionId": "svc_580226"
+    }
+  }
+}

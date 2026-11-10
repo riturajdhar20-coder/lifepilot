@@ -1,0 +1,388 @@
+{
+  "tables": [
+    {
+      "id": "tp3Cy1HCTmK",
+      "sdkName": "tasks",
+      "name": "Tasks",
+      "primaryFieldId": "fo83U6MA5M8",
+      "fields": [
+        {
+          "id": "fo83U6MA5M8",
+          "sdkName": "title",
+          "definition": {
+            "name": "Title",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f8JUe4DQHKF",
+          "sdkName": "dueDate",
+          "definition": {
+            "name": "Due Date",
+            "type": "date",
+            "template": {
+              "dateFormat": "local"
+            }
+          }
+        },
+        {
+          "id": "fgrjNDXqpgc",
+          "sdkName": "status",
+          "definition": {
+            "name": "Status",
+            "type": "single_select",
+            "template": {
+              "options": [
+                {
+                  "value": "4ehg",
+                  "label": "To do",
+                  "color": "gray"
+                },
+                {
+                  "value": "1bk3",
+                  "label": "In progress",
+                  "color": "blue"
+                },
+                {
+                  "value": "6BJC",
+                  "label": "Done",
+                  "color": "green"
+                }
+              ],
+              "disableColors": false
+            }
+          }
+        },
+        {
+          "id": "fhRL1cmL5j3",
+          "sdkName": "priority",
+          "definition": {
+            "name": "Priority",
+            "type": "single_select",
+            "template": {
+              "options": [
+                {
+                  "value": "bj1x",
+                  "label": "Low",
+                  "color": "gray"
+                },
+                {
+                  "value": "9iFg",
+                  "label": "Medium",
+                  "color": "yellow"
+                },
+                {
+                  "value": "gr2b",
+                  "label": "High",
+                  "color": "red"
+                }
+              ],
+              "disableColors": false
+            }
+          }
+        },
+        {
+          "id": "f2udZzKEjG2",
+          "sdkName": "notes",
+          "definition": {
+            "name": "Notes",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f6NEe9tijCG",
+          "sdkName": "owner",
+          "definition": {
+            "name": "Owner",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "toPjtmVSP2b",
+      "sdkName": "bills",
+      "name": "Bills",
+      "primaryFieldId": "fm9Qzvu6exG",
+      "fields": [
+        {
+          "id": "fm9Qzvu6exG",
+          "sdkName": "bill",
+          "definition": {
+            "name": "Bill",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "frEr5jdPs7t",
+          "sdkName": "amount",
+          "definition": {
+            "name": "Amount",
+            "type": "currency",
+            "template": {
+              "numberFormat": "local",
+              "decimalPlaces": 2,
+              "currencySymbol": "₹"
+            }
+          }
+        },
+        {
+          "id": "fuCQkfxX5bW",
+          "sdkName": "dueDate",
+          "definition": {
+            "name": "Due Date",
+            "type": "date",
+            "template": {
+              "dateFormat": "local"
+            }
+          }
+        },
+        {
+          "id": "fvdBt5NyjQA",
+          "sdkName": "status",
+          "definition": {
+            "name": "Status",
+            "type": "single_select",
+            "template": {
+              "options": [
+                {
+                  "value": "vUG7",
+                  "label": "Unpaid",
+                  "color": "red"
+                },
+                {
+                  "value": "ffyr",
+                  "label": "Paid",
+                  "color": "green"
+                }
+              ],
+              "disableColors": false
+            }
+          }
+        },
+        {
+          "id": "fhK79YqMBgR",
+          "sdkName": "category",
+          "definition": {
+            "name": "Category",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fwTMw999th3",
+          "sdkName": "notes",
+          "definition": {
+            "name": "Notes",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f4GqRxHSf4a",
+          "sdkName": "owner",
+          "definition": {
+            "name": "Owner",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ttYMnYjYA7i",
+      "sdkName": "documents",
+      "name": "Documents",
+      "primaryFieldId": "fnocMQAoKeL",
+      "fields": [
+        {
+          "id": "fnocMQAoKeL",
+          "sdkName": "document",
+          "definition": {
+            "name": "Document",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f8ZqDD51MCh",
+          "sdkName": "category",
+          "definition": {
+            "name": "Category",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fvrieUE9Wrw",
+          "sdkName": "expiryDate",
+          "definition": {
+            "name": "Expiry Date",
+            "type": "date",
+            "template": {
+              "dateFormat": "local"
+            }
+          }
+        },
+        {
+          "id": "fhTcqNy4h9U",
+          "sdkName": "reminderDate",
+          "definition": {
+            "name": "Reminder Date",
+            "type": "date",
+            "template": {
+              "dateFormat": "local"
+            }
+          }
+        },
+        {
+          "id": "f5PhYNrdQX1",
+          "sdkName": "notes",
+          "definition": {
+            "name": "Notes",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fckGvnx97kM",
+          "sdkName": "owner",
+          "definition": {
+            "name": "Owner",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb2hUSdL6rH",
+      "sdkName": "appointments",
+      "name": "Appointments",
+      "primaryFieldId": "ffTCt8ZW9sk",
+      "fields": [
+        {
+          "id": "ffTCt8ZW9sk",
+          "sdkName": "appointment",
+          "definition": {
+            "name": "Appointment",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "ffwvrB9pvh9",
+          "sdkName": "startsAt",
+          "definition": {
+            "name": "Starts At",
+            "type": "datetime",
+            "template": {
+              "timezone": "",
+              "dateFormat": "local",
+              "timeFormat": "12h",
+              "displayTimeZone": false
+            }
+          }
+        },
+        {
+          "id": "fhxf1EUKJV4",
+          "sdkName": "location",
+          "definition": {
+            "name": "Location",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fd2rvsug1ML",
+          "sdkName": "notes",
+          "definition": {
+            "name": "Notes",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "ffnoxJi5aBN",
+          "sdkName": "owner",
+          "definition": {
+            "name": "Owner",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "t7vbQHnzVcJ",
+      "sdkName": "preferences",
+      "name": "Preferences",
+      "primaryFieldId": "f1QnfzHaTbH",
+      "fields": [
+        {
+          "id": "f1QnfzHaTbH",
+          "sdkName": "profile",
+          "definition": {
+            "name": "Profile",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fa2m9H87caX",
+          "sdkName": "displayName",
+          "definition": {
+            "name": "Display Name",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fkvoYJUL5sM",
+          "sdkName": "taskReminderDays",
+          "definition": {
+            "name": "Task Reminder Days",
+            "type": "number",
+            "template": {
+              "numberFormat": "local",
+              "decimalPlaces": 1
+            }
+          }
+        },
+        {
+          "id": "fn5moAAfLMg",
+          "sdkName": "owner",
+          "definition": {
+            "name": "Owner",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
